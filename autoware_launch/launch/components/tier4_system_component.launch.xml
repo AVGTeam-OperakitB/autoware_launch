@@ -33,4 +33,6 @@
     <!-- <arg name="diagnostic_graph_aggregator_graph_path" value=""/>  Set the value if use_diagnostic_graph is true. -->
     <!-- <arg name="diagnostic_graph_aggregator_planning_simulator_graph_path" value=""/>  Set the value if use_diagnostic_graph is true. -->
   </include>
+    <include file="$(find-pkg-share tod_assistance)/launch/tod_assistance_launch.py">
+  </include>
 </launch>
